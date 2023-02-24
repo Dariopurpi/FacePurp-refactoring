@@ -1,0 +1,47 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  border-top: 12px solid gray;
+}
+
+.elementUser {
+  gap: 10px;
+  display: flex;
+}
+
+.elementUser img {
+  margin: 8px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.elementUser p {
+  padding-top: 8px;
+}
+
+.elementImg {
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+}
+.elementText {
+  padding: 0 0 14px 8px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reaction span {
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.like {
+  color: #0552fa;
+  font-size: 10px;
+}

@@ -1,0 +1,10 @@
+.FriendsList {
+  display: flex;
+  overflow-x: hidden;
+  overflow-x: scroll;
+  padding: 12px;
+  gap: 10px;
+  border-top: 12px solid gray;
+}
+@media screen and (min-width: 768px) {
+}

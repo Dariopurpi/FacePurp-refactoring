@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.modal {
+  position: relative;
+  left: 20%;
+}
+.post {
+  margin-top: 75px;
+}
+
+.friendsSection {
+}
+
+.mainSection {
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    display: flex;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,21 @@
+.NewMessage form {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.NewMessage input {
+  margin: 3px;
+  padding: 6px;
+  border-radius: 16px;
+  border: 1px solid gray;
+  width: 60%;
+}
+
+.NewMessage input[type="submit"] {
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  width: 70px;
+}
