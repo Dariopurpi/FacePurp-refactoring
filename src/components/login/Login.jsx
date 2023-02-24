@@ -28,6 +28,7 @@ const Login = () => {
       <form className="LoginForm">
         <h1>Log in</h1>
         <h3>Inserisci Username e Password corretti</h3>
+        <p>user:dario pass:dario1</p>
         <input
           type="text"
           placeholder="Username..."
